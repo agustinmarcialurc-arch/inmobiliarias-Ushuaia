@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fin del Mundo Propiedades | Inmobiliaria en Ushuaia</title>
+<meta name="description" content="Compra, venta y alquiler de propiedades en Ushuaia, Tierra del Fuego. Casas, departamentos y terrenos con atención personalizada al fin del mundo.">
+<meta property="og:title" content="Fin del Mundo Propiedades | Inmobiliaria en Ushuaia">
+<meta property="og:description" content="Encontrá tu próxima propiedad en Ushuaia. Venta, alquiler y tasaciones.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preload" as="image" fetchpriority="high"
+  href="https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1200&q=70&auto=format&fit=crop"
+  imagesrcset="https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=800&q=65&auto=format&fit=crop 800w,
+               https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1200&q=70&auto=format&fit=crop 1200w,
+               https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1920&q=75&auto=format&fit=crop 1920w"
+  imagesizes="100vw">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-mark">FM</span>Fin del Mundo <span>Propiedades</span></a>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="propiedades.html">Propiedades</a></li>
+        <li><a href="propietarios.html">Propietarios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="propietarios.html" class="btn btn--dark btn--sm">Tasá tu propiedad</a>
+      </div>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <img class="hero-bg" alt="Puerto de Ushuaia al atardecer con las montañas nevadas de fondo"
+    src="https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1200&q=70&auto=format&fit=crop"
+    srcset="https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=800&q=65&auto=format&fit=crop 800w,
+            https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1200&q=70&auto=format&fit=crop 1200w,
+            https://images.unsplash.com/photo-1652743920822-faaabb728dea?w=1920&q=75&auto=format&fit=crop 1920w"
+    sizes="100vw" fetchpriority="high" width="1920" height="1281">
+  <div class="hero-content container">
+    <span class="hero-eyebrow"><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h13L14 8l-3.5 5L8 10 2 21z"/><circle cx="9" cy="6" r="1.3"/></svg> La inmobiliaria de Ushuaia</span>
+    <h1>Encontrá tu próximo <em>hogar</em> al fin del mundo</h1>
+    <p>Compra, venta y alquiler de propiedades en Ushuaia. Conocemos cada barrio, cada vista y cada oportunidad de la ciudad más austral del planeta.</p>
+
+    <form id="hero-search-form" class="hero-search">
+      <div class="hero-search-tabs">
+        <button type="button" class="active" data-op="venta">Comprar</button>
+        <button type="button" data-op="alquiler">Alquilar</button>
+      </div>
+      <input type="hidden" name="operacion" value="venta">
+      <div class="hero-search-grid">
+        <div class="field autocomplete-wrap">
+          <label for="hero-zona">Barrio o zona</label>
+          <input type="text" id="hero-zona" name="zona" placeholder="Ej: Andorra, Centro, Playa Larga...">
+          <ul class="autocomplete-list" id="hero-autocomplete"></ul>
+        </div>
+        <div class="field">
+          <label for="hero-tipo">Tipo</label>
+          <select id="hero-tipo" name="tipo">
+            <option value="">Todos</option>
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+            <option value="ph">PH</option>
+            <option value="terreno">Terreno</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hero-amb">Ambientes</label>
+          <select id="hero-amb" name="ambientes">
+            <option value="">Indistinto</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary">Buscar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container">
+    <div><h3>18</h3><span>años en Ushuaia</span></div>
+    <div><h3>420+</h3><span>operaciones cerradas</span></div>
+    <div><h3>60+</h3><span>propiedades activas</span></div>
+    <div><h3>4.9★</h3><span>satisfacción de clientes</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Propiedades destacadas</span>
+      <h2>Lo mejor de nuestra cartera esta semana</h2>
+      <p>Una selección de propiedades en venta y alquiler en los barrios más buscados de Ushuaia.</p>
+    </div>
+    <div class="grid-props" id="featured-grid"></div>
+    <div class="section-cta">
+      <a href="propiedades.html" class="btn btn--dark">Ver todas las propiedades</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Por qué elegirnos</span>
+      <h2>Conocemos Ushuaia mejor que nadie</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></div>
+        <h3>Expertise local real</h3>
+        <p>Sabemos qué barrio tiene sol a la tarde, dónde no llega el viento y qué zonas se valorizan. Eso no lo da un algoritmo.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M9 14l2 2 4-4"/></svg></div>
+        <h3>Gestión sin vueltas</h3>
+        <p>Te acompañamos en toda la operación: tasación, papeles, escritura y postventa. Un solo interlocutor de punta a punta.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Trato humano</h3>
+        <p>Cada consulta la responde una persona del equipo, no un bot. Por WhatsApp, llamada o en nuestra oficina.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">La ciudad</span>
+      <h2>No vendemos casas. Vendemos Ushuaia.</h2>
+      <p>Faro Les Éclaireurs, el Canal Beagle, la Bahía y las montañas nevadas como fondo de cada ventana: esto es lo que compra quien elige vivir acá.</p>
+    </div>
+    <div class="ushuaia-gallery">
+      <a href="nosotros.html" class="big">
+        <img src="https://images.unsplash.com/photo-1652743920719-307f6333be00?w=900&q=70&auto=format&fit=crop" alt="Cerro nevado sobre la ciudad de Ushuaia al atardecer" loading="lazy" decoding="async" width="900" height="440">
+        <span class="caption">Ushuaia, entre montaña y canal</span>
+      </a>
+      <a href="propiedades.html?zona=Río Pipo">
+        <img src="https://images.unsplash.com/photo-1517017752111-e7ee4ab1ce6c?w=600&q=70&auto=format&fit=crop" alt="Faro Les Éclaireurs en el Canal Beagle, Ushuaia" loading="lazy" decoding="async" width="600" height="220">
+        <span class="caption">Canal Beagle</span>
+      </a>
+      <a href="propiedades.html?zona=Solar del Bosque">
+        <img src="https://images.unsplash.com/photo-1651489000754-1bc96a562520?w=600&q=70&auto=format&fit=crop" alt="Laguna glaciar de montaña cerca de Ushuaia" loading="lazy" decoding="async" width="600" height="220">
+        <span class="caption">Camino a los glaciares</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="alert-box reveal">
+      <div>
+        <h3>¿No encontrás lo que buscás?</h3>
+        <p>Dejanos tu email y te avisamos apenas entre una propiedad que matchee con lo que necesitás.</p>
+      </div>
+      <form id="alert-form" class="alert-form">
+        <input type="email" placeholder="tu@email.com" required>
+        <button type="submit" class="btn btn--primary">Crear alerta</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Testimonios</span>
+      <h2>Lo que dicen quienes ya operaron con nosotros</h2>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Vendimos nuestra casa en Playa Larga en menos de un mes. Nos acompañaron en cada paso, incluso con la escritura."</p>
+        <div class="testimonial-author">
+          <div class="agent-avatar">MG</div>
+          <div><strong>María González</strong><span>Venta en Playa Larga (dato de ejemplo)</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Alquilamos un depto para mudarnos desde Buenos Aires sin conocer la ciudad. Nos asesoraron sobre las zonas y acertamos de lleno."</p>
+        <div class="testimonial-author">
+          <div class="agent-avatar">JP</div>
+          <div><strong>Julián Pérez</strong><span>Alquiler en Kaupen (dato de ejemplo)</span></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Como propietarios, la tasación fue clara y realista. Cero sorpresas en el camino."</p>
+        <div class="testimonial-author">
+          <div class="agent-avatar">SL</div>
+          <div><strong>Sofía Larretape</strong><span>Tasación y venta (dato de ejemplo)</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">FM</span>Fin del Mundo <span>Propiedades</span></a>
+        <p>Inmobiliaria en Ushuaia, Tierra del Fuego. Venta, alquiler y tasaciones con atención personalizada.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg class="icon-inline" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 2h-3a5 5 0 0 0-5 5v3H6v4h3v8h4v-8h3.2l.8-4H13V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="WhatsApp" class="js-wa-link"><svg class="icon-inline" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.41-1.42a9.9 9.9 0 0 0 4.63 1.18h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2zm5.8 14.14c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 2 .88 2.15.07.14.11.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.16.28.71 1.17 1.53 1.89 1.05.94 1.94 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.19-.28.37-.23.62-.14.26.1 1.63.77 1.9.91.28.14.46.21.53.33.07.12.07.68-.17 1.36z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="propiedades.html?operacion=venta">Propiedades en venta</a></li>
+          <li><a href="propiedades.html?operacion=alquiler">Propiedades en alquiler</a></li>
+          <li><a href="propietarios.html">Tasaciones</a></li>
+          <li><a href="nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Barrios</h4>
+        <ul>
+          <li><a href="propiedades.html?zona=Centro">Centro</a></li>
+          <li><a href="propiedades.html?zona=Andorra">Andorra</a></li>
+          <li><a href="propiedades.html?zona=Kaupen">Kaupen</a></li>
+          <li><a href="propiedades.html?zona=Playa Larga">Playa Larga</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Av. San Martín 000, Ushuaia</li>
+          <li><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +54 2901 00-0000</li>
+          <li><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> hola@findelmundopropiedades.com.ar</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Fin del Mundo Propiedades. Todos los derechos reservados.</span>
+      <span class="footer-matricula">Matrícula CUCICBA N.º 00000 (dato de ejemplo) · <a href="#">Términos</a> · <a href="#">Privacidad</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="wa-float" aria-label="Escribinos por WhatsApp"><svg class="icon-inline" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.81L2 22l5.41-1.42a9.9 9.9 0 0 0 4.63 1.18h.01c5.46 0 9.9-4.45 9.9-9.9C21.95 6.45 17.5 2 12.04 2zm5.8 14.14c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.8-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.17-4.94-4.36-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.26-.28.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.58.81 2 .88 2.15.07.14.11.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.16.28.71 1.17 1.53 1.89 1.05.94 1.94 1.23 2.21 1.37.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.19-.28.37-.23.62-.14.26.1 1.63.77 1.9.91.28.14.46.21.53.33.07.12.07.68-.17 1.36z"/></svg></a>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
